@@ -16,7 +16,20 @@ int main(){
             break;
         
         case 2:
-            
+            int limite=0, acumulador=0;
+            cout<<"Ingrese el limite: ";
+            cin>>limite;
+            for (int i = 0; i <=limite; i++)
+            {
+
+                acumulador+=((2*i)-1)*((2*i)+1);
+            }
+            cout<<endl;
+            cout<<"La respuesta es: "<< acumulador <<endl;
+            break;
+
+            case 3:
+            return 0;
             break;
         }  
     }
